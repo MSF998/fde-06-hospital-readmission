@@ -36,6 +36,11 @@ Owner's notes: for every cleaning and feature decision, write what you chose and
 - the target is <30 = 1 and >30 or NO = 0
 - the \*\_id columns are strings because they are categories
 
+- split
+  - one patient might visit multiple times so dataset will contain multiple rows of same patient identified using patient_nbr
+  - GroupShuffleSplit
+    - ensures that all rows belonging to a specific patient_nbr goes into the same group. (train, validate and test)
+
 ## Features
 
 (fill in as you go)
