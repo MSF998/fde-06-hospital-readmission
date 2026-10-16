@@ -1,0 +1,8 @@
+.venv/
+data/
+notebooks/
+docs/
+tests/
+.git/
+__pycache__/
+sample_request.json
